@@ -86,10 +86,10 @@ GPIO接口数量:
     | Toggle Standby / Wakeup     | Toggle between Standby and Online modes.              | n/a                          |
     | Gain Up                     | Increase the gain of all outputs by +3 dB.            | n/a                          |
     | Gain Down                   | Decrease the gain of all outputs by −3 dB.            | n/a                          |
-    | Load Conguration A*        | Load the conguration in selected memory slot A.      | Conguration slot A (1 to 8) |
-    | Load Conguration B*        | Load the conguration in selected memory slot B.      | Conguration slot B (1 to 8) |
-    | Load Next Conguration*     | Load the next available conguration.                 | n/a                          |
-    | Load Previous Conguration* | Load the previously available conguration.           | n/a                          |
+    | Load Configuration A*        | Load the configuration in selected memory slot A.      | Configuration slot A (1 to 8) |
+    | Load Configuration B*        | Load the configuration in selected memory slot B.      | Configuration slot B (1 to 8) |
+    | Load Next Configuration*     | Load the next available configuration.                 | n/a                          |
+    | Load Previous Configuration* | Load the previously available configuration.           | n/a                          |
 
 * GPO: 根据设备状态信息向外输出继电器命令, 可以监测的功能见下表: 
 
@@ -97,7 +97,7 @@ GPIO接口数量:
     | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
     | None           | The GPO is not used.                                         | n/a                                                          |
     | State          | Manually set the GPO state.                                  | State Select                                                 |
-    | Fault          | Report a selection of possible faults.                       | • Amplier state  • Output temperature  • Output error  • Ethernet Links  • AES/EBU Lock  • AVB Lock |
+    | Fault          | Report a selection of possible faults.                       | • Amplifier state  • Output temperature  • Output error  • Ethernet Links  • AES/EBU Lock  • AVB Lock |
     | Alive          | Periodically switch between OPEN and CLOSED states.          | Alive Period (1 to 60 seconds)                               |
     | Ethernet Links | Report a failing or disconnected Ethernet network port.      | • Ethernet Port 1  • Ethernet Port 2                         |
     | PA/VA          | Report a PA/VA fault (input signal monitoring, loudspeaker load monitoring). | n/a                                                          |
@@ -136,11 +136,12 @@ GPIO接口数量:
 
 > [LA GPIO Technical Bulletin](https://www.l-acoustics.com/documentation/GLOBAL/EN/GPIO%20Technical%20Bulletin/GPIO_TB_EN.pdf)
 >
-> [LA2Xi - Owner's Manual](https://www.l-acoustics.com/documentation/ELECTRONICS/LA2Xi/EN/Owner's Manual/LA2Xi_OM_EN.pdf)
+> [LA2Xi - Owner's Manual](https://www.l-acoustics.com/documentation/ELECTRONICS/LA2Xi/EN/Owner's%20Manual/LA2Xi_OM_EN.pdf)
 >
 > [SD & Quantum Software Reference Manual](https://digico.biz/wp-content/uploads/2022/03/SD-Quantum-Software-Reference-Issue-E-V1528.pdf)
 >
 > [B112-SD-GPIO-Pin-Out](https://digico.biz/wp-content/uploads/2020/02/TB112-SD-GPIO-Pin-Out.pdf)
 >
 > [What do you guys use GPIO for? : livesound (reddit.com)](https://www.reddit.com/r/livesound/comments/kwihpu/what_do_you_guys_use_gpio_for/)
+
 
