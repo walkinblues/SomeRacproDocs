@@ -33,13 +33,13 @@ GPO开关、 GPO模式、 macro模式和信号指示灯
 
   - <img src="./屏幕快照 2023-02-06 下午2.40.44.png" alt="屏幕快照 2023-02-06 下午2.40.44" style="zoom:50%;" />
 
-- In: 有输入信号时亮起
+- in: 有输入信号时亮起
 
 ### GPIO和Macro
 
 可以用GPI控制Macro的触发, 同时可以把GPO的开关做在Macro上
 
-- 将Macro 分配到GPI即可用GPI触发: 
+- 将Macro 分配到GPI触发. 如下图中当GPI_1监测到信号时即会Fire Next Snapshot 
 
 <img src="./屏幕快照 2023-02-06 下午2.40.18.png" alt="屏幕快照 2023-02-06 下午2.40.18" style="zoom: 33%;" />
 
