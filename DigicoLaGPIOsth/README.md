@@ -19,7 +19,7 @@ TRS接口或DB37接口
 ### GPIO Relays
 GPO开关、 GPO模式、 macro模式和信号指示灯
 
-<img src="./屏幕快照 2023-02-06 下午2.40.56.png" alt="屏幕快照 2023-02-06 下午2.40.56" style="zoom:50%;" />
+<img src="./DigicoLaGPIOsth_Pics/屏幕快照 2023-02-06 下午2.40.56.png" alt="屏幕快照 2023-02-06 下午2.40.56" style="zoom:50%;" />
 
 
 - GPO action: 
@@ -31,7 +31,7 @@ GPO开关、 GPO模式、 macro模式和信号指示灯
 - GPI event : 有信号时亮起
 - out: 打开或关闭对应GPO口, snapshot上有更详细的设置. 见下图
 
-  - <img src="./屏幕快照 2023-02-06 下午2.40.44.png" alt="屏幕快照 2023-02-06 下午2.40.44" style="zoom:50%;" />
+  - <img src="./DigicoLaGPIOsth_Pics/屏幕快照 2023-02-06 下午2.40.44.png" alt="屏幕快照 2023-02-06 下午2.40.44" style="zoom:50%;" />
 
 - in: 有输入信号时亮起
 
@@ -41,11 +41,11 @@ GPO开关、 GPO模式、 macro模式和信号指示灯
 
 - 将Macro 分配到GPI触发. 如下图中当GPI_1监测到信号时即会Fire Next Snapshot 
 
-<img src="./屏幕快照 2023-02-06 下午2.40.18.png" alt="屏幕快照 2023-02-06 下午2.40.18" style="zoom: 33%;" />
+<img src="./DigicoLaGPIOsth_Pics/屏幕快照 2023-02-06 下午2.40.18.png" alt="屏幕快照 2023-02-06 下午2.40.18" style="zoom: 33%;" />
 
 - 把GPO的开关做成Macro: 
 
-<img src="./屏幕快照 2023-02-06 下午2.42.30.png" alt="屏幕快照 2023-02-06 下午2.42.30" style="zoom: 33%;" />
+<img src="./DigicoLaGPIOsth_Pics/屏幕快照 2023-02-06 下午2.42.30.png" alt="屏幕快照 2023-02-06 下午2.42.30" style="zoom: 33%;" />
 
 
 
@@ -108,7 +108,7 @@ GPIO接口数量:
 
 三种设备均可在LA Network Manager里进行GPIO设置, 也支持Q-SYS
 
-<img src="./屏幕快照 2023-02-06 下午1.32.03.png" alt="屏幕快照 2023-02-06 下午1.32.03" style="zoom:50%;" />
+<img src="./DigicoLaGPIOsth_Pics/屏幕快照 2023-02-06 下午1.32.03.png" alt="屏幕快照 2023-02-06 下午1.32.03" style="zoom:50%;" />
 
 ## 举个🌰
 
@@ -120,7 +120,7 @@ GPIO接口数量:
 
 请参考上下图片, 开关闭合时, 监测到高电压(high voltage), 执行一个功能(low->high), 开关打开时为低电压(low voltage), 执行另一个设置的功能(high->low)
 
-<img src="./屏幕快照 2023-02-06 下午3.25.23.png" alt="屏幕快照 2023-02-06 下午3.25.23" style="zoom:50%;" />
+<img src="./DigicoLaGPIOsth_Pics/屏幕快照 2023-02-06 下午3.25.23.png" alt="屏幕快照 2023-02-06 下午3.25.23" style="zoom:50%;" />
 
 
 
@@ -128,7 +128,7 @@ GPIO接口数量:
 
 **设备状态**控制继电器开关的闭合/打开->实现输出给外部设备的电压值变化
 
-<img src="./屏幕快照 2023-02-06 下午3.26.24.png" alt="屏幕快照 2023-02-06 下午3.26.24" style="zoom:50%;" />
+<img src="./DigicoLaGPIOsth_Pics/屏幕快照 2023-02-06 下午3.26.24.png" alt="屏幕快照 2023-02-06 下午3.26.24" style="zoom:50%;" />
 
 ---
 
